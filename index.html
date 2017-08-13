@@ -13,33 +13,52 @@
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fluid">
+    <nav class="navbar navbar-default">
         <div class="container">
-
             <div class="navbar-header">
                 <a href="index.html" class="navbar-brand">John Desrosiers</a>
             </div>
-            <!-- There has to be a better way to do the nav for a screen reader -->
-			<!-- <ul class="nav navbar-nav navbar-right hidden-xs"> -->
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="">About</a></li>
-				<li><a href="">Portfolio</a></li>
-				<li><a href="">Contact</a></li>
-			</ul>
-<!-- 			<ul class="nav navbar-nav visible-xs">
-				<li><a href="">About</a></li>
-				<li><a href="">Portfolio</a></li>
-				<li><a href="">Contact</a></li>
-			</ul> -->
-
+            <!-- Navbar for medium+ screens -->
+            <!-- <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm"> -->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="">About</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <!-- Navbar for small- screens -->
+<!--             <ul class="nav navbar-nav navbar-right hidden-md hidden-lg text-center col-sm-12">
+                <li><a href="">About</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Contact</a></li>
+            </ul> -->
         </div>
+        <div class="container">
+            <div class="row">
+                <section class="col-md-8">
+                    <h1>About Me</h1>
+                    <img src="assets/images/me.jpg" class="" alt="John Desrosiers">
+                    <p>John Desrosiers is an enthusiastic and passionate web developer keen to create useful and interesting applications and websites on a team of like-minded developers.</p>
+                    <p>Currently, John is a full-time student in the Coding Bootcamp at UC San Diego Extension. Before joining the bootcamp, John spent the past ten years working in retail at REI as a member of a diverse team of individuals who together were able to achieve record setting performances for the business unit in between trips together to ski, hike, camp, climb, and otherwise explore the outdoors. His rolls during this time included management, office administration, sales, and customer service. He attended Chapman University where he earned a B.S. in Business Administration prior to his career in retail.</p>
+                </section>
+                <section class="col-md-4">
+                    <h2>Connect with Me</h2>
+                    <a href="https://github.com/median-man"><img src="assets/images/github-128.png" class="social-icon" alt="GitHub" /></a>
+                    <a href="https://www.linkedin.com/in/webprojohn/"><img src="assets/images/linkedin-128.png" class="social-icon" alt="LinkedIn" /></a>
+                    <a href="https://stackoverflow.com/users/3105371/johnd"><img src="assets/images/stackoverflow-128.png" class="social-icon" alt="Stack Overflow" /></a>
+                </section>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted text-center">Copyright &copy; 2017 John Desrosiers</p>
+            </div>
+        </footer>
     </nav>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
