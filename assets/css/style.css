@@ -1,3 +1,8 @@
+body {
+	background-color: #fff;
+	background-image: url("../images/topography.png");
+}
+
 /* heading and navbar styles */
 .nav li {
 	display: inline-block;
@@ -5,7 +10,6 @@
 }
 .navbar {
 	background-color: #fff;
-	margin-bottom: 0;
 }
 .navbar-default {
 	border: none;
@@ -20,7 +24,7 @@
 
 
 footer {
-	margin-top : 50px;
+	margin-top : 30px;
 	padding-top: 15px;
 	border-top: 2px solid #4aaaa5;
 
