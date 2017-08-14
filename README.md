@@ -21,13 +21,13 @@ This is a homework assignment for the Coding Bootcamp at UCSD Extension. Build a
 * fixed background to avoid floating footer look
 
 ##TO DO
-* index.html
+* ~~index.html~~
 	* ~~barebones index.html w/bootstrap link~~
 	* ~~working header and navbar~~
 	* ~~responsive layout grid~~
 	* ~~responsive image~~
 	* ~~footer~~
-	* html and css validates
+	* ~~html and css validates~~
 * create portfolio.html and contact.html using index as template
 * apply responsive styling to portfolio and contact pages
 * fix hover style over brand	
