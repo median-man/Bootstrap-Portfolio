@@ -5,11 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <title>About | John Desrosiers</title>
-    <!-- Bootstrap -->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/style.css">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,26 +21,38 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <a href="index.html" class="navbar-brand">John Desrosiers</a>
+    <nav>
+        <!-- Sticky navbar for larger screens. Using a media query in the style sheet or javascript would be a better way to handle fixed vs sticky navbar based on viewport sizing. However, I'm this implementation as an exercise in not using media queries our javascript when customizing styles while usinb Bootstrap 3. -JD -->
+        <div class="navbar navbar-default navbar-fixed-top hidden-xs hidden-sm">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">John Desrosiers</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
-            <!-- Navbar for medium+ screens -->
-            <!-- <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm"> -->
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <!-- Navbar for small- screens -->
-            <!--             <ul class="nav navbar-nav navbar-right hidden-md hidden-lg text-center col-sm-12">
-                <li><a href="">About</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contact</a></li>
-            </ul> -->
+        </div>
+        <!-- Static navbar for smaller screens. -->
+        <div class="navbar navbar-default  hidden-lg hidden-md">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">John Desrosiers</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+
+    <!-- add a margin below fixed navbar for md and lg screens -->
+    <div class="margin-fixed-navbar hidden-sm hidden-xs"></div>
+
     <div class="container">
         <div class="row">
             <section class="col-md-8">
@@ -47,11 +61,11 @@
                         <div class="page-header">
                             <h1>About Me</h1>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-sm-6">
                             <img src="assets/images/me.jpg" class="img-responsive" alt="John Desrosiers">
                         </div>
-                        <p>John is an enthusiastic and passionate web developer keen to create useful and interesting applications and websites on a team of like-minded developers.</p>
-                        <p>Currently, John is a full-time student in the Coding Bootcamp at UC San Diego Extension. Before joining the bootcamp, John spent the past ten years working in retail at REI as a member of a diverse team of individuals who together were able to achieve record setting performances for the business unit in between trips together to ski, hike, camp, climb, and otherwise explore the outdoors. His rolls during this time included management, office administration, sales, and customer service. He attended Chapman University where he earned a B.S. in Business Administration prior to his career in retail.</p>
+                        <p>I'm an enthusiastic and passionate web developer keen to create useful and interesting applications and websites on a team of like-minded developers.</p>
+                        <p>Currently, I am a full-time student in the Coding Bootcamp at UC San Diego Extension. Prior to joining the bootcamp, I spent ten years working in retail at REI as a member of a diverse team of individuals. Together, we were able to achieve record setting performances for the business unit in between trips together to ski, hike, camp, climb, and otherwise explore the outdoors. My rolls during this time included management, office administration, sales, and customer service. Prior to working at REI, I attended Chapman University where I earned a B.S. in Business Administration.</p>
                     </div>
                 </div>
             </section>
@@ -69,11 +83,13 @@
             </section>
         </div>
     </div>
+
     <footer class="footer">
         <div class="container">
             <p class="text-muted text-center">Copyright &copy; 2017 John Desrosiers</p>
         </div>
     </footer>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->

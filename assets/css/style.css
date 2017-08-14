@@ -1,37 +1,47 @@
 body {
-	background-color: #fff;
-	background-image: url("../images/topography.png");
+    background-color: #fff;
+    background-image: url("../images/topography.png");
+
+    font-size: 16px;
 }
+
 
 /* heading and navbar styles */
 .nav li {
-	display: inline-block;
-	float: none;
+    display: inline-block;
+    float: none;
 }
+
 .navbar {
-	background-color: #fff;
+    background-color: #fff;
 }
+
 .navbar-default {
-	border: none;
-	border-bottom: 2px solid #e7e7e7;
+    border: none;
+    border-bottom: 2px solid #e7e7e7;
 }
-.navbar-header, .navbar-default .navbar-brand {
-	background-color: #4aaaa5;
+
+.navbar-header,
+.navbar-default .navbar-brand {
+    background-color: #4aaaa5;
     color: white;
     font-size: 24px;
     font-weight: bold;
 }
 
+.margin-fixed-navbar {
+    height: 80px;
+}
+
 
 footer {
-	margin-top : 30px;
-	padding-top: 15px;
-	border-top: 2px solid #4aaaa5;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px solid #4aaaa5;
 
-	background-color: #e7e7e7;
+    background-color: #e7e7e7;
 }
 
 .social-icon {
-	max-width: 60px;
+    max-width: 60px;
 }
-
