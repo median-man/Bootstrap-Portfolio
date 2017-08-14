@@ -2,11 +2,12 @@
 
 body {
     background-color: #fff;
-
     font-size: 16px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: #4aaaa5;
     font-weight: bold;
 }
@@ -23,6 +24,7 @@ footer {
 .social-icon {
     max-width: 60px;
 }
+
 
 
 /* heading and navbar styles */
@@ -49,35 +51,42 @@ footer {
     font-weight: bold;
 }
 
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    color: inherit;
+}
+
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+
 .margin-fixed-navbar {
     height: 80px;
 }
 
 
+
 /* contact */
 
 .btn-primary {
-    /*color: #fff;*/
     background-color: #4aaaa5;
     border-color: #2D918D;
 }
 
 .btn-primary:hover {
-    /*color: #fff;*/
     background-color: #2D918D;
     border-color: #138581;
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
-    /*color: #fff;*/
     background-color: #138581;
     border-color: #138581;
 }
 
 .btn-primary.active,
 .btn-primary:active {
-    /*color: #fff;*/
     background-color: #138581;
     border-color: #138581;
 }
@@ -88,32 +97,34 @@ footer {
 .btn-primary:active.focus,
 .btn-primary:active:focus,
 .btn-primary:active:hover {
-    /*color: #fff;*/
     background-color: #138581;
     border-color: #138581;
 }
 
 label {
-	color: #777;
+    color: #777;
 }
 
+
 /* portfolio */
+
 .work {
-	position: relative;
-	margin: 15px auto;
-	max-width: 640px;
+    position: relative;
+    margin: 15px auto;
+    max-width: 640px;
 }
 
 .work .work-lbl {
-	display: flex;
-	display: -webkit-flex; 	
-	position: absolute;
-	bottom: 10%;
-	width: 100%;
-	min-height: 20%;
-	background-color: #4aaaa5;
+    display: flex;
+    display: -webkit-flex;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    min-height: 20%;
+    background-color: #4aaaa5;
 }
+
 .work-lbl h3 {
-	color: #fff;
-	margin: auto;
+    color: #fff;
+    margin: auto;
 }

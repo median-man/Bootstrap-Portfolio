@@ -20,7 +20,11 @@ This is a homework assignment for the Coding Bootcamp at UCSD Extension. Build a
 * finished initial version index.html (use as template)
 * fixed background to avoid floating footer look
 
-##TO DO
+### 8/13/17
+* finished portfolio.html and contanct.html
+* made small style tweaks
+
+## TO DO
 * ~~index.html~~
 	* ~~barebones index.html w/bootstrap link~~
 	* ~~working header and navbar~~
@@ -30,7 +34,7 @@ This is a homework assignment for the Coding Bootcamp at UCSD Extension. Build a
 	* ~~html and css validates~~
 * ~~create portfolio.html and contact.html using index as template~~
 * ~~apply responsive styling to portfolio and contact pages~~
-* fix hover style over brand	
+* ~~fix hover style over brand~~
 * deploy to Github Pages
 * figure out how to make responsive sticky footer
 
