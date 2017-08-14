@@ -18,6 +18,7 @@ This is a homework assignment for the Coding Bootcamp at UCSD Extension. Build a
 ## Change Log
 ### 8/12/17
 * finished initial version index.html (use as template)
+* fixed background to avoid floating footer look
 
 ##TO DO
 * index.html

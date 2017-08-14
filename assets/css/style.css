@@ -1,8 +1,11 @@
 body {
     background-color: #fff;
-    background-image: url("../images/topography.png");
+    /*background-color: #e7e7e7;*/
 
     font-size: 16px;
+}
+#wrapper {
+    background-image: url("../images/topography.png");	
 }
 
 
@@ -35,11 +38,10 @@ body {
 
 
 footer {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     padding-top: 10px;
     border-top: 2px solid #4aaaa5;
 
-    background-color: #e7e7e7;
 }
 
 .social-icon {
