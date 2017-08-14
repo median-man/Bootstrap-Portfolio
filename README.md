@@ -1,7 +1,7 @@
 # Bootstrap-Portfolio
 This is a homework assignment for the Coding Bootcamp at UCSD Extension. Build a layout for the "Basic-Portfolio" assignment using Bootstrap.
 
-View the published version here: [https://median-man.github.io/Bootstrap-Portfolio/](https://median-man.github.io/Bootstrap-Portfolio/])
+View the published version here: [https://median-man.github.io/Bootstrap-Portfolio/](https://median-man.github.io/Bootstrap-Portfolio/)
 
 ## Specifications
 * Refer to [UCSD Coding Bootcamp Repo](http://ucsd.bootcampcontent.com/UCSD-Coding-Bootcamp/08-07-2017-UCSD-San-Diego-Class-Repositoy-FSF-FT/blob/master/homework/02-css-bootstrap/02-Homework/Instructions/homework-instructions.md#assignment-two-instructions-bootstrap) for instructions. 
