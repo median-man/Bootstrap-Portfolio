@@ -1,14 +1,32 @@
+/* general */
+
 body {
     background-color: #fff;
 
     font-size: 16px;
 }
+
+h1, h2, h3 {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
 #wrapper {
-    background-image: url("../images/topography.png");	
+    background-image: url("../images/topography.png");
+}
+
+footer {
+    padding-top: 10px;
+    border-top: 2px solid #e7e7e7;
+}
+
+.social-icon {
+    max-width: 60px;
 }
 
 
 /* heading and navbar styles */
+
 .nav li {
     display: inline-block;
     float: none;
@@ -36,13 +54,41 @@ body {
 }
 
 
-footer {
-    /*margin-top: 20px;*/
-    padding-top: 10px;
-    border-top: 2px solid #4aaaa5;
+/* contact */
 
+.btn-primary {
+    /*color: #fff;*/
+    background-color: #4aaaa5;
+    border-color: #2D918D;
 }
 
-.social-icon {
-    max-width: 60px;
+.btn-primary:hover {
+    /*color: #fff;*/
+    background-color: #2D918D;
+    border-color: #138581;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    /*color: #fff;*/
+    background-color: #138581;
+    border-color: #138581;
+}
+
+.btn-primary.active,
+.btn-primary:active {
+    /*color: #fff;*/
+    background-color: #138581;
+    border-color: #138581;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover {
+    /*color: #fff;*/
+    background-color: #138581;
+    border-color: #138581;
 }
