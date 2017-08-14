@@ -96,3 +96,24 @@ footer {
 label {
 	color: #777;
 }
+
+/* portfolio */
+.work {
+	position: relative;
+	margin: 15px auto;
+	max-width: 640px;
+}
+
+.work .work-lbl {
+	display: flex;
+	display: -webkit-flex; 	
+	position: absolute;
+	bottom: 10%;
+	width: 100%;
+	min-height: 20%;
+	background-color: #4aaaa5;
+}
+.work-lbl h3 {
+	color: #fff;
+	margin: auto;
+}
