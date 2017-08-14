@@ -23,6 +23,7 @@ This is a homework assignment for the Coding Bootcamp at UCSD Extension. Build a
 ### 8/13/17
 * finished portfolio.html and contanct.html
 * made small style tweaks
+* fixed hover/active style for brand/logo
 
 ## TO DO
 * ~~index.html~~
