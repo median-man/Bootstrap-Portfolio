@@ -32,12 +32,11 @@ View the published version here: [https://median-man.github.io/Bootstrap-Portfol
 	* ~~barebones index.html w/bootstrap link~~
 	* ~~working header and navbar~~
 	* ~~responsive layout grid~~
-	* ~~responsive image
+	* ~~responsive image~~
 	* ~~footer~~
 	* ~~html and css validates~~
 * ~~create portfolio.html and contact.html using index as template~~
 * ~~apply responsive styling to portfolio and contact pages~~
 * ~~fix hover style over brand~~
 * ~~deploy to Github Pages~~
-* figure out how to make responsive sticky footer
 
