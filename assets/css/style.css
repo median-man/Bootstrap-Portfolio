@@ -1,4 +1,36 @@
+body {
+  background-image: url('../images/topography.png');
+}
+
+.bg-white {
+  background-color: white;
+}
+
 /* navbar */
 body {
   padding-top: 70px;
+}
+
+/* footer */
+body {
+  margin-bottom: 80px;
+}
+footer {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  border-top-width: 1px;
+
+  position: absolute;
+  bottom: 0;
+  
+  height: 59px;
+  width: 100%;
+  line-height: 59px;
+  margin-top: 20px;
+
+}
+
+/* Connect With Me Sidebar */
+.social {
+  max-width: 60px;
 }
